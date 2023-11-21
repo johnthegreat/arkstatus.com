@@ -36,9 +36,7 @@ function App() {
 
   return (
     <div className="container">
-      <div>arkstatus.com</div>
-
-      <section className="mt-3">
+      <section className="mb-3">
         <ServersList
           servers={servers}
           onClickUpdateStatus={setServerIdPendingUpdate}
@@ -69,7 +67,7 @@ function App() {
         <></>
       )}
 
-      <section className="mt-3">
+      <section className="mb-3">
         <Disclaimers />
       </section>
     </div>
